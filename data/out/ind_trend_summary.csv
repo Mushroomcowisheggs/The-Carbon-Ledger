@@ -1,0 +1,30 @@
+series,entity,unit,n_years,first_year,last_year,first_value,last_value,slope_per_year,slope_ci_lo,slope_ci_hi,pct_per_year,p_value,verdict
+core_pct,Amazonia,%,19,2007,2025,55.29,48.29,-0.3901,-0.4333,-0.3179,-0.751,0.0,significant
+core_pct,Cerrado,%,20,2000,2025,37.76,5.96,-0.5091,-0.8764,-0.3953,-4.313,0.0,significant
+core_pct,MataAtlantica,%,18,2000,2025,14.72,0.76,-0.0184,-0.0901,-0.0132,-1.044,0.0,significant
+deter_alerts,Amazonia,alerts,10,2016,2025,24831.0,23209.0,4257.0,-4949.8333,7528.1667,9.593,0.2831,not significant
+deter_alerts,Cerrado,alerts,8,2018,2025,19448.0,18537.0,299.725,-3108.5,2285.5,2.073,0.9015,not significant
+eca_minor_ha,Amazonia,ha,19,2007,2025,107831.41,113242.26,-330.0044,-436.8468,-130.8221,-0.318,0.0012,significant
+eca_minor_ha,Cerrado,ha,20,2000,2025,0.0,0.0,0.0,0.0,0.0,,,not significant
+eca_minor_ha,MataAtlantica,ha,18,2000,2025,359162.74,371342.75,0.0,-231.909,609.0008,0.0,0.3161,not significant
+edge_density,Amazonia,index,19,2007,2025,0.18,0.23,0.0026,0.0022,0.003,1.299,0.0,significant
+edge_density,Cerrado,index,20,2000,2025,0.33,0.72,0.0101,0.0091,0.0132,1.666,0.0,significant
+edge_density,MataAtlantica,index,18,2000,2025,0.5,0.8,0.003,0.0024,0.0072,0.401,0.0,significant
+fire_foci,Amazônia,detections,22,2003,2024,174400.0,140346.0,-3124.5789,-7808.8333,1451.2857,-2.712,0.1426,not significant
+fire_foci,Cerrado,detections,22,2003,2024,84113.0,81468.0,-1193.7647,-2674.8333,389.9811,-1.675,0.1278,not significant
+fire_foci,Mata Atlântica,detections,22,2003,2024,44431.0,21328.0,-639.9167,-1100.5,15.4444,-3.339,0.0131,significant
+forest_km2,Amazonia,km2,19,2007,2025,3320925.81,3185927.75,-7344.7769,-8242.781,-6121.0407,-0.226,0.0,significant
+forest_km2,Cerrado,km2,20,2000,2025,1343802.86,1017138.56,-9593.102,-11400.8873,-8769.243,-0.856,0.0,significant
+forest_km2,MataAtlantica,km2,18,2000,2025,429255.36,364921.33,-1345.5231,-2108.7839,-1057.3145,-0.355,0.0,significant
+loss_inside_core_pct,Amazonia,%,18,2008,2025,5.41,1.55,-0.0998,-0.1956,0.0553,-2.628,0.1501,not significant
+loss_inside_core_pct,Cerrado,%,19,2002,2025,16.17,0.27,-0.2279,-0.5618,-0.107,-7.459,0.0013,significant
+loss_inside_core_pct,MataAtlantica,%,17,2004,2025,23.01,0.0,0.0,-0.0864,0.0,0.0,0.0346,significant
+loss_km2,Amazonia,km2/yr,18,2008,2025,12369.16,5112.46,152.6169,-148.7325,593.0101,2.035,0.1727,not significant
+loss_km2,Cerrado,km2/yr,19,2002,2025,53853.68,7236.4,-1257.9174,-2274.1354,-352.4809,-7.317,0.0003,significant
+loss_km2,MataAtlantica,km2/yr,17,2004,2025,22490.65,403.78,-272.8603,-746.9993,-121.1521,-7.21,0.0,significant
+loss_km2_annual,Amazonia,km2/yr,13,2013,2025,5145.29,5112.46,338.5168,-311.2655,938.0424,4.339,0.1606,not significant
+loss_km2_annual,Cerrado,km2/yr,13,2013,2025,13470.57,7236.4,-122.7233,-619.6368,322.293,-1.362,0.4277,not significant
+loss_km2_annual,MataAtlantica,km2/yr,12,2013,2025,2856.67,403.78,-142.6718,-241.191,-80.6488,-11.305,0.0002,significant
+n_patches,Amazonia,count,19,2007,2025,3708.0,4704.0,53.1818,49.0,56.2857,1.25,0.0,significant
+n_patches,Cerrado,count,20,2000,2025,5248.0,7905.0,75.2286,67.3719,92.0,1.057,0.0,significant
+n_patches,MataAtlantica,count,18,2000,2025,2804.0,2722.0,-0.2778,-1.8824,1.0,-0.01,0.4452,not significant

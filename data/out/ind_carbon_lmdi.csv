@@ -1,0 +1,16 @@
+sector,mt_2019,mt_2023,delta_mt,activity_effect_mt,structure_effect_mt,intensity_effect_mt
+ALL,2628.05,2382.84,-245.21,-42.19,-17.48,-185.53
+Power Plants,1625.57,1437.35,-188.22,-25.79,-29.71,-132.72
+Chemicals,295.71,277.94,-17.77,-4.83,9.21,-22.15
+Metals,95.46,84.14,-11.32,-1.51,0.0,-9.82
+Petroleum and Natural Gas Systems,104.55,113.32,8.77,-1.84,0.55,10.05
+Waste,99.74,92.22,-7.52,-1.62,0.26,-6.17
+Injection of CO2,16.49,9.7,-6.79,-0.22,2.35,-8.93
+Minerals,115.21,109.6,-5.61,-1.89,2.19,-5.9
+Other,141.73,136.26,-5.47,-2.34,0.66,-3.79
+Petroleum Product Suppliers,73.22,68.41,-4.81,-1.19,2.13,-5.74
+Pulp and Paper,39.55,35.71,-3.84,-0.63,-1.82,-1.4
+Refineries,6.4,4.12,-2.28,-0.09,-2.35,0.15
+Natural Gas and Natural Gas Liquids Suppliers,14.1,13.7,-0.4,-0.23,-1.05,0.89
+Industrial Gas Suppliers,0.01,0.18,0.16,-0.0,0.07,0.1
+Import and Export of Equipment Containing Fluorintaed GHGs,0.3,0.21,-0.09,-0.0,0.0,-0.09

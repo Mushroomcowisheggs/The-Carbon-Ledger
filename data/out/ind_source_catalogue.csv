@@ -1,0 +1,11 @@
+source,grain,licence,url,note,retrieved
+BDQueimadas (INPE),fire detection,open (INPE),https://dataserver-coids.inpe.br/queimadas/,"Reference-satellite active fire foci, 2003-2024.",2026-11-13
+DETER (INPE) via TerraBrasilis,alert,open (INPE),http://terrabrasilis.dpi.inpe.br/geoserver,"Monthly clearing alerts, Amazonia 2016+ and Cerrado 2018+.",2026-11-13
+GBIF occurrence,occurrence record,CC0/CC-BY per dataset,https://api.gbif.org/v1,"Four taxa, Brazil, with coordinates; effort kept as a covariate.",2026-11-13
+GHGRP facility-year,facility x year x stratum,public domain (US EPA),https://www.epa.gov/ghgreporting/data-sets,"Annual summary workbooks 2010-2023, all sheets with id+coordinates.",2026-11-13
+GHGRP unit-level C/D/AA,facility x unit x fuel x year,public domain (US EPA),https://www.epa.gov/system/files/other-files/2024-10/emissions_by_unit_and_fuel_type_c_d_aa.zip,Combustion units with nameplate capacity and fuel mix.,2026-11-13
+OWID / Global Carbon Budget,country x year,CC BY 4.0,https://github.com/owid/co2-data,National fossil and land-use CO2 for triangulation.,2026-11-13
+PRODES (INPE) via TerraBrasilis,biome x year (raster 0.02 deg),open (INPE),http://terrabrasilis.dpi.inpe.br/geoserver,"Annual increments + accumulated baseline, rasterised through WMS.",2026-11-13
+PRODES official area,biome x year,open (INPE),http://terrabrasilis.dpi.inpe.br/geoserver,"Exact sum of the area_km attribute, used to calibrate raster area.",2026-11-13
+SBTi target register,target,open (SBTi terms),https://sciencebasedtargets.org/target-dashboard,"Commitment side: base year, target year, scope, ambition.",2026-11-13
+World Bank,country x year,CC BY 4.0,https://api.worldbank.org/v2,"Forest area, protected-area share, renewable electricity share.",2026-11-13

@@ -1,0 +1,8 @@
+quantity,estimate,ci_lo,ci_hi,n,note
+decline_share_top100_facilities,1.017,,,6056,share of the net decline contributed by the 100 largest decliners; > 1 means the rest of the panel increased
+direct_delta_2019_2023_mt,-220.3,-277.969,-162.724,6056,sum over facilities reporting in both years; facility-level bootstrap
+hhi_direct_2023,13.716,12.486,15.035,6470,Herfindahl index x 10000
+retention_gap_pp_bats,2.759,-3.691,10.145,447,lost(< -5km2) minus stable; cell bootstrap
+retention_gap_pp_palms,-2.473,-12.9,7.982,147,lost(< -5km2) minus stable; cell bootstrap
+retention_gap_pp_primates,-2.301,-29.596,23.08,98,lost(< -5km2) minus stable; cell bootstrap
+top_declining_state_share_of_bootstraps,0.017,,,54,bootstrap over states; top = IL

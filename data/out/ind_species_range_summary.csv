@@ -1,0 +1,10 @@
+grp,biome,n_cells,mean_species_tested,mean_retention,mean_dist_to_forest_km,mean_effort_p2,mean_sample_coverage
+bats,Amazonia,137,11.5,0.048,10.0,8.6,0.266
+bats,Cerrado,154,9.3,0.128,7.9,9.2,0.338
+bats,MataAtlantica,264,8.7,0.118,18.3,18.9,0.458
+palms,Amazonia,68,4.4,0.087,5.6,8.8,0.425
+palms,Cerrado,30,3.8,0.243,6.7,22.0,0.432
+palms,MataAtlantica,90,3.9,0.187,7.9,19.7,0.453
+primates,Amazonia,68,4.5,0.25,6.2,17.1,0.406
+primates,Cerrado,8,3.1,0.583,8.6,37.1,0.503
+primates,MataAtlantica,45,3.9,0.675,14.7,86.5,0.577

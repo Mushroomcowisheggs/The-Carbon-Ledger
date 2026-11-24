@@ -1,0 +1,44 @@
+# ===========================================================================
+# Whitelist mode
+# ===========================================================================
+
+# 1. Deny every file and directory by default.
+*
+
+# 2. Keep this file itself.
+!.gitignore
+
+# 3. Pipeline source and dependencies (needed to reproduce).
+!/src/
+!/src/*.py
+!/requirements.txt
+
+# 4. SQL: schema, views and the indicator queries.
+!/sql/
+!/sql/*.sql
+
+# 5. Documentation and delivered reports/figures.
+!/README.md
+!/reports/
+!/reports/analysis_report.md
+!/reports/validation.md
+!/reports/figures/
+!/reports/figures/*.png
+!/LICENSE
+
+# 6. Offline data bundle: every upstream payload and the derived tables needed
+#    to reproduce without contacting a public server.  Whitelist parents before
+#    children; re-ignore the two artifacts that exceed 100 MB.
+!/data/
+!/data/raw/
+!/data/raw/**
+!/data/interim/
+!/data/interim/*.csv
+!/data/interim/*.json
+!/data/out/
+!/data/out/*.csv
+/data/interim/fire_foci.csv
+
+# 7. Never track bytecode/caches, even if their parent directory is whitelisted.
+__pycache__/
+*.py[cod]

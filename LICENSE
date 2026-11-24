@@ -1,0 +1,113 @@
+DATA LICENCES AND ATTRIBUTION
+The Carbon Ledger - offline data bundle
+
+This repository ships a snapshot of public third-party data under data/raw and
+the derived tables under data/interim so that the analysis can be reproduced
+without contacting EPA, INPE, GBIF, OWID or the World Bank.  The pipeline code
+(src/, sql/) and the written reports are original work.  The bundled data
+remain subject to the terms of their publishers; this file records those terms
+and the required attribution and grants no additional rights over them.
+
+The same attributions are written into the `sources` table of
+db/environmental.db by src/s07_build_db.py, so they travel with the database.
+
+
+1. US EPA Greenhouse Gas Reporting Program (GHGRP), facility-level
+   Licence : public domain (US government work)
+   Source  : https://www.epa.gov/ghgreporting/data-sets
+   Bundled : data/raw/ghgrp_2023_summary.zip
+             data/raw/ghgrp/ghgp_data_2010.xlsx ... ghgp_data_2023.xlsx
+   Note    : annual summary workbooks 2010-2023, all sheets carrying id and
+             coordinates.
+
+2. US EPA GHGRP, unit-level (subparts C, D, AA)
+   Licence : public domain (US government work)
+   Source  : https://www.epa.gov/system/files/other-files/2024-10/
+             emissions_by_unit_and_fuel_type_c_d_aa.zip
+   Bundled : data/raw/ghgrp/emissions_by_unit_and_fuel_type_c_d_aa.xlsb
+   Note    : combustion units with nameplate capacity and fuel mix.
+
+3. Science Based Targets initiative (SBTi) target register
+   Licence : open data under SBTi terms of use
+   Source  : https://sciencebasedtargets.org/target-dashboard
+   Bundled : data/raw/sbti/sbti_targets.xlsx
+             data/raw/sbti/sbti_companies.xlsx
+   Note    : snapshot provided for reproducibility only; consult
+             https://sciencebasedtargets.org/terms-of-use for current terms.
+
+4. INPE PRODES, annual and accumulated deforestation (via TerraBrasilis)
+   Licence : open (INPE / Brazilian public data)
+   Source  : http://terrabrasilis.dpi.inpe.br/geoserver
+   Bundled : data/raw/prodes/border_*.geojson
+             data/raw/masks/*.npy
+   Note    : the .npy files are 0.02 deg WMS rasterisations derived here, not
+             the original vector geometry.
+
+5. INPE PRODES official area (area_km attribute sweep)
+   Licence : open (INPE)
+   Source  : http://terrabrasilis.dpi.inpe.br/geoserver
+   Bundled : data/interim/prodes_official_area.csv
+             data/interim/prodes_annual_full.csv
+             data/interim/prodes_year_sweep.json
+             data/interim/prodes_layer_check.csv
+   Note    : exact sums of the WFS area_km attribute, no geometry.
+
+6. INPE DETER near-real-time alerts
+   Licence : open (INPE)
+   Source  : http://terrabrasilis.dpi.inpe.br/geoserver
+   Bundled : data/interim/deter_alerts.csv
+             data/interim/deter_biome_month.csv
+             data/interim/deter_layer_counts.csv
+   Note    : attributes only, no geometry.  Amazonia 2016+ and Cerrado 2018+;
+             no DETER layer exists for the Atlantic Forest.
+
+7. INPE BDQueimadas active-fire foci
+   Licence : open (INPE)
+   Source  : https://dataserver-coids.inpe.br/queimadas/
+   Bundled : data/raw/fire/focos_br_ref_2003.zip ... focos_br_ref_2024.zip
+   Note    : one reference satellite per year; the satellite changes across
+             years, so level shifts can be instrument changes (see the report).
+
+8. GBIF occurrence records
+   Licence : CC0 or CC BY, per contributing dataset; each occurrence carries
+             the licence of its own dataset publisher.
+   Source  : https://api.gbif.org/v1
+   Bundled : data/raw/gbif/gbif_*_raw*.csv and .meta.json
+   Note    : datasetKey and institutionCode are retained so every record can be
+             traced to its publisher and licence.  See
+             https://www.gbif.org/terms/licences.  Required attribution: GBIF
+             and the contributing dataset publishers.
+
+9. Our World in Data / Global Carbon Budget CO2 panel
+   Licence : CC BY 4.0
+   Source  : https://github.com/owid/co2-data
+   Bundled : data/raw/national/owid-co2-data.csv
+   Required attribution: Our World in Data / Global Carbon Project.
+
+10. World Bank indicators
+    Licence : CC BY 4.0
+    Source  : https://api.worldbank.org/v2
+    Bundled : data/interim/wb_indicators.csv
+    Required attribution: World Bank.  Indicators AG.LND.FRST.K2,
+    AG.LND.FRST.ZS, ER.LND.PTLD.ZS, EG.ELC.RNEW.ZS.
+
+
+REDISTRIBUTION NOTE
+
+The bundle contains only what the pipeline needs to reproduce the 46 indicator
+tables, 24 figures and the analysis report.  No 30 m raster stack, no modelled
+substitutes for missing Scope 2/3 values, and no geometry downloads are
+included.
+
+Two large derived artifacts are deliberately NOT bundled and are rebuilt
+locally from the files above:
+
+    data/interim/fire_foci.csv   442 MB, from data/raw/fire/*.zip
+    db/environmental.db          195 MB, from data/interim/*.csv
+
+Both exceed the 100 MB single-file limit of ordinary Git hosts.  Every other
+bundled file is under 50 MB.
+
+For the sources that require attribution (OWID, World Bank, and the individual
+GBIF datasets), cite the publisher as listed above when reusing the bundled
+data.

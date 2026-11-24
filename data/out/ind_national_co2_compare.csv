@@ -1,0 +1,16 @@
+country,year,fossil_co2_mt,t_per_capita,kg_per_dollar
+Brazil,2000,340.0,1.96,0.196
+Brazil,2010,440.0,2.27,0.156
+Brazil,2019,477.0,2.3,0.156
+Brazil,2023,486.0,2.3,
+Brazil,2024,491.0,2.32,
+United States,2000,6019.0,21.38,0.465
+United States,2010,5664.0,18.21,0.372
+United States,2019,5238.0,15.51,0.283
+United States,2023,4924.0,14.34,
+United States,2024,4912.0,14.22,
+World,2000,25508.0,4.13,0.426
+World,2010,33324.0,4.75,0.371
+World,2019,37061.0,4.74,0.303
+World,2023,38139.0,4.71,
+World,2024,38647.0,4.74,

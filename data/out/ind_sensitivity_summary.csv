@@ -1,0 +1,7 @@
+biome,year,metric,n_variants,min_value,max_value,spread,spread_pct_of_max
+Amazonia,2025,core_pct,3,34.8,62.8,28.0,44.57
+Amazonia,2025,eca_minor_ha,6,989.1,2934493.7,2933504.5,99.97
+Cerrado,2025,core_pct,3,2.5,12.8,10.3,80.52
+Cerrado,2025,eca_minor_ha,6,0.0,508961.7,508961.7,100.0
+MataAtlantica,2025,core_pct,3,0.0,4.5,4.5,99.94
+MataAtlantica,2025,eca_minor_ha,6,12419.8,2630406.9,2617987.1,99.53

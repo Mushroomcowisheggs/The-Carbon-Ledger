@@ -1,0 +1,17 @@
+grp,iucn,n_species,mean_cell_change_pct,mean_centroid_shift_km,mean_cell_retention
+bats,NT,2,-29.04,387.5,0.104
+bats,LC,69,-19.69,354.7,0.104
+bats,DD,4,-9.88,237.3,0.104
+bats,,7,-27.82,480.0,0.104
+palms,EN,1,127.27,61.8,0.16
+palms,VU,2,61.61,35.5,0.16
+palms,NT,3,326.19,128.0,0.16
+palms,LC,53,120.71,268.3,0.16
+palms,,31,98.49,172.4,0.16
+primates,CR,6,149.93,129.9,0.43
+primates,EN,10,185.88,213.4,0.43
+primates,VU,12,141.31,149.3,0.43
+primates,NT,7,199.85,111.0,0.43
+primates,LC,21,184.67,229.8,0.43
+primates,DD,1,105.88,200.7,0.43
+primates,,2,159.82,169.5,0.43

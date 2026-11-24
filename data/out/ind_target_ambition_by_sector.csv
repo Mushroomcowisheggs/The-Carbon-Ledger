@@ -1,0 +1,13 @@
+sector,n_targets,mean_reduction_pct,mean_target_year,n_scope3_targets
+Professional Services,4029,51.1,2036.0,1350
+Food and Beverage Processing,3460,50.5,2035.0,1637
+Software and Services,2935,53.2,2035.0,937
+Electrical Equipment and Machinery,2700,50.3,2035.0,734
+"Textiles, Apparel, Footwear and Luxury Goods",2444,51.8,2036.0,812
+Construction and Engineering,2005,49.8,2035.0,536
+"Banks, Diverse Financials, Insurance",1538,48.7,2030.0,839
+"Pharmaceuticals, Biotechnology and Life Sciences",1507,53.4,2036.0,475
+"Trading Companies and Distributors, and Commercial Services and Supplies",1504,48.2,2035.0,387
+"Consumer Durables, Household and Personal Products",1449,49.4,2034.0,433
+Technology Hardware and Equipment,1422,53.1,2036.0,506
+Real Estate,1247,54.8,2036.0,579

@@ -1,0 +1,54 @@
+pair,year,value_a,value_b,unit_a,unit_b
+DETER alerts vs PRODES loss (Amazonia),2016,24831.0,7079.7,alerts,km2
+DETER alerts vs PRODES loss (Amazonia),2017,25623.0,6759.09,alerts,km2
+DETER alerts vs PRODES loss (Amazonia),2018,36060.0,6961.53,alerts,km2
+DETER alerts vs PRODES loss (Amazonia),2019,52908.0,10697.1,alerts,km2
+DETER alerts vs PRODES loss (Amazonia),2020,58459.0,10350.87,alerts,km2
+DETER alerts vs PRODES loss (Amazonia),2021,48184.0,12177.46,alerts,km2
+DETER alerts vs PRODES loss (Amazonia),2022,53088.0,12476.13,alerts,km2
+DETER alerts vs PRODES loss (Amazonia),2023,40186.0,7809.02,alerts,km2
+DETER alerts vs PRODES loss (Amazonia),2024,81229.0,6069.38,alerts,km2
+DETER alerts vs PRODES loss (Amazonia),2025,23209.0,5112.46,alerts,km2
+DETER alerts vs PRODES loss (Cerrado),2018,19448.0,7266.92,alerts,km2
+DETER alerts vs PRODES loss (Cerrado),2019,15612.0,6307.11,alerts,km2
+DETER alerts vs PRODES loss (Cerrado),2020,10803.0,7887.72,alerts,km2
+DETER alerts vs PRODES loss (Cerrado),2021,9395.0,8513.48,alerts,km2
+DETER alerts vs PRODES loss (Cerrado),2022,7920.0,10678.54,alerts,km2
+DETER alerts vs PRODES loss (Cerrado),2023,16773.0,11000.83,alerts,km2
+DETER alerts vs PRODES loss (Cerrado),2024,17158.0,8167.93,alerts,km2
+DETER alerts vs PRODES loss (Cerrado),2025,18537.0,7236.4,alerts,km2
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2010,3196.57,5664.49,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2011,3207.58,5533.93,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2012,3058.08,5327.13,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2013,3073.21,5466.7,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2014,3084.07,5530.07,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2015,2939.44,5366.32,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2016,2804.14,5248.5,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2017,2734.72,5193.97,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2018,2778.82,5358.22,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2019,2628.05,5237.88,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2020,2402.68,4693.88,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2021,2523.51,5018.12,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2022,2504.28,5065.99,Mt CO2e (reported),Mt CO2 (inventory)
+GHGRP direct (Mt) vs OWID US fossil CO2 (Mt),2023,2382.84,4924.08,Mt CO2e (reported),Mt CO2 (inventory)
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2002,53853.68,2014.6,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2004,80030.79,2248.1,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2006,46518.51,1763.91,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2008,46953.76,1536.0,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2009,5864.94,1372.26,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2010,29688.99,1251.19,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2011,7275.9,1255.36,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2012,22078.44,1325.79,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2013,21472.54,1341.38,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2014,17662.38,1360.32,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2015,17038.99,1362.88,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2016,16979.09,1313.72,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2017,15049.24,1220.35,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2018,15574.49,1266.22,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2019,18071.78,1308.48,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2020,19031.23,1386.29,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2021,21618.08,1469.67,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2022,24188.5,1488.27,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2023,19575.7,1467.41,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2024,14716.69,1333.99,km2/year,Mt CO2/year
+PRODES loss (km2) vs OWID land-use CO2 (Mt),2025,12752.64,1398.99,km2/year,Mt CO2/year

@@ -1,0 +1,13 @@
+grp,forest_change_class,cells,retention,pp_vs_stable
+bats,1_lost>5km2,51,0.126,3.3
+bats,2_lost1-5km2,49,0.137,4.4
+bats,3_stable,347,0.093,0.0
+bats,4_gained,108,0.111,1.7
+palms,1_lost>5km2,25,0.137,-3.4
+palms,2_lost1-5km2,17,0.105,-6.6
+palms,3_stable,105,0.171,0.0
+palms,4_gained,41,0.169,-0.2
+primates,1_lost>5km2,10,0.4,-2.9
+primates,2_lost1-5km2,7,0.357,-7.2
+primates,3_stable,81,0.429,0.0
+primates,4_gained,23,0.47,4.1

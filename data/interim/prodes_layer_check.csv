@@ -1,0 +1,7 @@
+biome,layer,total_hits,sum_year_counts,diff,status
+Amazonia,prodes-amazon-nb:yearly_deforestation_biome,802312,802312.0,0.0,ok
+Amazonia,prodes-amazon-nb:accumulated_deforestation_2007_biome,189512,,,info
+Cerrado,prodes-cerrado-nb:yearly_deforestation,2388715,2388715.0,0.0,ok
+Cerrado,prodes-cerrado-nb:accumulated_deforestation_2000,229209,,,info
+MataAtlantica,prodes-mata-atlantica-nb:yearly_deforestation,1113709,1113709.0,0.0,ok
+MataAtlantica,prodes-mata-atlantica-nb:accumulated_deforestation_2000,248885,,,info

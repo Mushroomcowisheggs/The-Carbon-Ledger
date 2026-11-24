@@ -1,0 +1,4 @@
+grp_a,grp_b,n_cells,spearman_r
+bats,palms,26,0.571
+bats,primates,33,0.592
+palms,primates,11,0.683

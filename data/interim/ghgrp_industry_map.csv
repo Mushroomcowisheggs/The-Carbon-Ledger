@@ -1,0 +1,42 @@
+subpart,subpart_name,subpart_group
+C,Stationary Combustion,Direct Emitter
+D,Electricity Generation,Direct Emitter
+E,Adipic Acid Production,Direct Emitter
+F,Aluminum Production,Direct Emitter
+G,Ammonia Manufacturing,Direct Emitter
+H,Cement Production,Direct Emitter
+I,Electronics Manufacture,Direct Emitter
+K,Ferroalloy Production,Direct Emitter
+L,Fluorinated GHG Production,Direct Emitter
+N,Glass Production,Direct Emitter
+O,HCFC–22 Production and HFC–23 Destruction,Direct Emitter
+P,Hydrogen Production,Direct Emitter
+Q,Iron and Steel Production,Direct Emitter
+R,Lead Production,Direct Emitter
+S,Lime Production,Direct Emitter
+T,Magnesium Production,Direct Emitter
+U,Miscellaneous Use of Carbonates,Direct Emitter
+V,Nitric Acid Production,Direct Emitter
+W,Petroleum and Natural Gas Systems,Direct Emitter
+X,Petrochemical Production,Direct Emitter
+Y,Petroleum Refining,Direct Emitter
+Z,Phosphoric Acid Production,Direct Emitter
+AA,Pulp and Paper Manufacturing,Direct Emitter
+BB,Silicon Carbide Production,Direct Emitter
+CC,Soda Ash Manufacturing,Direct Emitter
+DD,SF6 from Electrical Equipment,SF6 from Elec. Equip.
+EE,Titanium Dioxide Production,Direct Emitter
+FF,Underground Coal Mines,Direct Emitter
+GG,Zinc Production,Direct Emitter
+HH,Municipal Landfills,Direct Emitter
+II,Industrial Wastewater Treatment,Direct Emitter
+LL,Suppliers of Coal Based Liquids Fuels,Supplier
+MM,Suppliers of Petroleum Products,Supplier
+NN,Natural Gas and Natural Gas Liquid Supply,Supplier
+OO,Non-CO2 Industrial Gas Supply,Supplier
+PP,Carbon Dioxide (CO2) Supply,Supplier
+QQ,Import and Export of Equipment Containing Fluorinated GHGs,Supplier
+RR,Geologic Sequestration of Carbon Dioxide,CO2 Injection
+SS,Manufacture of Electric Transmission and Distribution Equipment,Direct Emitter
+TT,Industrial Waste Landfills,Direct Emitter
+UU,Injection of Carbon Dioxide,CO2 Injection

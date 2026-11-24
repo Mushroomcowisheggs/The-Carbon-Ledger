@@ -1,0 +1,11 @@
+series,n_series,n_significant_5pct,n_declining,n_increasing
+core_pct,3,3,3,0
+eca_minor_ha,3,1,1,0
+edge_density,3,3,0,3
+fire_foci,3,1,1,0
+forest_km2,3,3,3,0
+loss_inside_core_pct,3,2,1,0
+loss_km2,3,2,2,0
+loss_km2_annual,3,1,1,0
+n_patches,3,2,0,2
+deter_alerts,2,0,0,0
